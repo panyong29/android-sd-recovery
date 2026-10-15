@@ -1,6 +1,6 @@
 ---
-name: android-sd-forensics
-description: 安卓手机 TF/SD 卡镜像的数据恢复与取证。适用于卡被格式化、被用作 Adoptable Storage（内部存储扩展，dm-crypt 加密）、分区表损坏或文件被大量删除的场景。提供镜像探查（GPT 与熵分布判定加密区）、FAT 目录项锚点法重建、多格式深度文件雕刻（JPEG/PNG/GIF/WEBP/BMP/MP4/SQLite/ZIP，带结构解析与解码校验）、以及用文件大小与日期把雕刻数据配回原始文件名与目录树。当用户提到 SD/TF 卡数据恢复、手机照片找回、android_expand 分区、adoptable storage 解密、镜像文件雕刻、FAT 目录项重建时应使用本技能。
+name: android-sd-recovery
+description: 安卓手机 TF/SD 卡镜像的数据恢复（方法源自数字取证）。适用于卡被格式化、被用作 Adoptable Storage（内部存储扩展，dm-crypt 加密）、分区表损坏或文件被大量删除的场景。提供镜像探查（GPT 与熵分布判定加密区）、FAT 目录项锚点法重建、多格式深度文件雕刻（JPEG/PNG/GIF/WEBP/BMP/MP4/SQLite/ZIP，带结构解析与解码校验）、以及用文件大小与日期把雕刻数据配回原始文件名与目录树。当用户提到 SD/TF 卡数据恢复、手机照片找回、android_expand 分区、adoptable storage 解密、镜像文件雕刻、FAT 目录项重建时应使用本技能。
 agent_created: true
 ---
 
