@@ -1,6 +1,6 @@
-# android-sd-forensics
+# android-sd-recovery
 
-安卓手机 TF/SD 卡镜像的数据恢复与取证工具集，同时也是一个可直接安装使用的
+安卓手机 TF/SD 卡镜像的数据恢复工具集（方法源自数字取证），同时也是一个可直接安装使用的
 [WorkBuddy](https://www.workbuddy.cn) Skill。
 
 面向这类场景：卡被安卓手机用作**内部存储（Adoptable Storage，dm-crypt 加密）**、
@@ -96,7 +96,7 @@ python scripts/decrypt_expand.py expand_<UUID>.key sdcard.img decrypted.img --li
 ## 目录结构
 
 ```
-android-sd-forensics/
+android-sd-recovery/
 ├── SKILL.md                      Skill 定义与工作流
 ├── README.md
 ├── scripts/                      五个可执行脚本
@@ -109,7 +109,7 @@ android-sd-forensics/
 
 ## 作为 Skill 安装
 
-把整个目录放到 `~/.workbuddy/skills/android-sd-forensics/`（用户级）
+把整个目录放到 `~/.workbuddy/skills/android-sd-recovery/`（用户级）
 或项目的 `.workbuddy/skills/` 下即可，WorkBuddy 会在相关任务中自动识别并加载。
 
 ## 免责声明
