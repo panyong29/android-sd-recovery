@@ -112,27 +112,6 @@ android-sd-forensics/
 把整个目录放到 `~/.workbuddy/skills/android-sd-forensics/`（用户级）
 或项目的 `.workbuddy/skills/` 下即可，WorkBuddy 会在相关任务中自动识别并加载。
 
-## 发布到 GitHub
-
-```bash
-cd android-sd-forensics
-git init && git add -A
-git config user.name  "你的名字"
-git config user.email "你的邮箱"
-git commit -m "feat: 安卓 SD/TF 卡镜像恢复工具集"
-git branch -M main
-git remote add origin https://github.com/<用户名>/android-sd-forensics.git
-git push -u origin main
-```
-
-使用个人访问令牌（repo 权限）认证时：
-
-```bash
-git remote set-url origin https://<用户名>:<令牌>@github.com/<用户名>/android-sd-forensics.git
-```
-
-推送后建议吊销该令牌。
-
 ## 免责声明
 
 仅用于恢复本人拥有合法权利的数据，或经授权的取证工作。请遵守当地法律法规。
